@@ -67,7 +67,7 @@ body {
 }
 .index_dj .index_dj_box .dj_left .plate span,
 .index_dj .index_dj_box .dj_right .plate span {
-  background-image: url("/img/index_dj_logo.png");
+  background-image: url("../../img/index_dj_logo.png");
   width: 140px;
   height: 140px;
   background-size: contain;
