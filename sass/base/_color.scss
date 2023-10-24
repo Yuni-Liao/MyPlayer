@@ -1,0 +1,15 @@
+$theme-colors: (
+    "primary" : #252525,  //主色 
+    "secondary" : #fff, //次色、文字色 
+    "btn_color" : #74EBD5,  //按鈕色
+    "accent_pri" : #FE1C6C, //主要強調色
+    "accent_sec" : #5D5DDB, //次要強調色
+		"accent_thi" : #973fd7, // Zac新增
+);
+
+
+$dark: map-get($theme-colors, primary);
+$white: map-get($theme-colors, secondary);
+$green: map-get($theme-colors, btn_color);
+$pink: map-get($theme-colors, accent_pri);
+$blue: map-get($theme-colors, accent_sec);
